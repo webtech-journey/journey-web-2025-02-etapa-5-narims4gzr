@@ -1,1 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+header {
+  background-color: #0d055c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+.sobre {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.sobre img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+}
+.sobre p {
+  font-size: 1.1em;
+}
+.habilidades {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+.habilidade {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+footer {
+ /*  background-color: #200352;
+  color: white; */
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
 
