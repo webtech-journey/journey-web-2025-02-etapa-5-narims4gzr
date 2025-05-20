@@ -1,17 +1,13 @@
 # 🧪 Relatório de Avaliação – Autograder HTML - narims4gzr
 
-**Data:** 15/05/2025 19:03
+**Data:** 20/05/2025 18:25
 
-**Nota Final:** `37.22/100`
+**Nota Final:** `55.00/100`
 **Status:** ❌ Reprovado
 
 ---
 ## ✅ Requisitos Obrigatórios (80%)
-- Foram encontrados `5` problemas nos requisitos obrigatórios. Veja abaixo os testes que falharam:
-  - ⚠️ **Falhou no teste**: `test_base.py::test_bootstrap_linked`
-    - **Melhoria sugerida**: O Bootstrap não foi encontrado. Certifique-se de incluir a CDN no <head> do HTML.
-  - ⚠️ **Falhou no teste**: `test_base.py::test_navbar_present`
-    - **Melhoria sugerida**: A navbar com Bootstrap não foi encontrada. Utilize as classes 'navbar' corretamente.
+- Foram encontrados `3` problemas nos requisitos obrigatórios. Veja abaixo os testes que falharam:
   - ⚠️ **Falhou no teste**: `test_base.py::test_sections_exist`
     - **Melhoria sugerida**: Uma ou mais seções obrigatórias estão ausentes. Verifique se usou os IDs: apresentacao, habilidades, aprendizado, contato.
   - ⚠️ **Falhou no teste**: `test_base.py::test_responsive_layout`
